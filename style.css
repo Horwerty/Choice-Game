@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Tapestry&display=swap');
+
+*{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+}
+
+body {
+      background-color: antiquewhite;
+}
+
+.container {
+      background-color: rgba(151, 139, 139, 0.641);
+      width: 350px;
+      box-shadow: 5px 2px 3px black;
+      margin: 10px auto;
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      height: 380px;
+      border-radius: 10px;
+      text-align: center;
+}
+
+button {
+      background-color: tomato;
+      border-radius: 3px;
+      width: 5rem;
+      height: 2rem;
+      color: white;
+      font-family: 'Tapestry', cursive;
+}
+
+button:hover {
+      background-color: darkgoldenrod;
+      color: black;
+      transform: scaleX(1.05);
+      cursor:pointer;
+}
+
+h3 {
+    padding-bottom: 2px;  
+    font-family: 'Tapestry', cursive;
+    font-size: 3rem;
+}
+
+#result {
+      font-family: 'Tapestry', cursive;
+}
